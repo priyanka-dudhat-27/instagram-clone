@@ -21,7 +21,7 @@ const Navber = ({login}) => {
           <Link to="/createpost"><li>Create Post</li></Link>
           <Link to="/post/myfollowingpost" style={{marginLeft:"20px"}}><li>My Following</li></Link>
           <Link to={""}>
-            <button class-m ""Name='primaryBtn' onClick={()=>setOpenModal(true)}>Logout</button>
+            <button className='primaryBtn' onClick={()=>setOpenModal(true)}>Logout</button>
           </Link>
         </>
       ]
